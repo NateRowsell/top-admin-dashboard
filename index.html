@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" async defer></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div id="left">
+        <div id="sidebar">
+        <div id="sidebar-title">
+            <h1>Dashboard</h1>
+        </div>
+
+        <div id="sidebar-list">
+            <ul>
+            <li class="sidebar-items">
+                <a href="/home">
+                <span class="material-icons">home</span>
+                Home
+                </a>
+            </li>
+            <li class="sidebar-items">
+                <a href="/profile">
+                <span class="material-icons">face</span>
+                Profile
+                </a>
+            </li>
+            <li class="sidebar-items">
+                <a href="/messages">
+                <span class="material-icons">mail</span>
+                Messages
+                </a>
+            </li>
+            <li class="sidebar-items">
+                <a href="/history">
+                <span class="material-icons">history</span>
+                History
+                </a>
+            </li>
+            <li class="sidebar-items">
+                <a href="/tasks">
+                <span class="material-icons">checklist</span>
+                Tasks
+                </a>
+            </li>
+            <li class="sidebar-items">
+                <a href="/communities">
+                <span class="material-icons">people</span>
+                Communities
+                </a>
+            </li>
+            </ul>
+
+            <ul>
+            <li class="sidebar-items">
+                <a href="/settings">
+                <span class="material-icons">settings</span>
+                Settings
+                </a>
+            </li>
+            <li class="sidebar-items">
+                <a href="/support">
+                <span class="material-icons">info</span>
+                Support
+                </a>
+            </li>
+            <li class="sidebar-items">
+                <a href="/privacy">
+                <span class="material-icons">
+                    admin_panel_settings
+                </span>
+                Privacy
+                </a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div id="right">
+        <div id="top-right">
+            <div id="header-top">
+                <div id="header-top-left">
+
+                    <form action="GET">
+                        <label for="search">
+                            <span class="material-icons">
+                            search
+                            </span>  
+                        </label>
+                        <input name="search" id="search" type="text" />
+                    </form>
+                </div>
+                <div id="header-top-right">
+                    <span class="material-icons">
+                        notifications_active
+                    </span>
+                    <div id="small-user-icon" class="small-user-icon"></div>
+                    <p id="username">Morgan Oakley</p>
+                </div>
+            </div>
+
+            <div id="header-bottom">
+            <div id="big-user-icon"></div>
+            <p id="greeting">Hi there,</p>
+            <h2>Morgan Oakley(@morgan)</h2>
+
+            <button class="header-buttons">New</button>
+            <button class="header-buttons">Upload</button>
+            <button class="header-buttons">Share</button>
+            </div>
+        </div>
+        <div id="bottom-right">
+            <div id="grid-container">
+                <div id="projects">
+                    <h2>Your Projects</h2>    
+                
+                    <div class="project">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="project-icons">
+                        <span class="material-icons">
+                            bookmark_add
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                    </div>
+                    <div class="project">
+                        <h3>Less Cool Project</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="project-icons">
+                        <span class="material-icons">
+                            bookmark_add
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                    </div>
+                    <div class="project">
+                        <h3>Impossible App</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="project-icons">
+                        <span class="material-icons">
+                            bookmark_add
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                    </div>
+                    <div class="project">
+                        <h3>Easy Peesy App</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="project-icons">
+                        <span class="material-icons">
+                            bookmark_add
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                    </div>
+                    <div class="project">
+                        <h3>Ad Blocker</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="project-icons">
+                        <span class="material-icons">
+                            bookmark_add
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                    </div>
+                    <div class="project">
+                        <h3>Money Maker</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="project-icons">
+                        <span class="material-icons">
+                            bookmark_add
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                        <span class="material-icons">
+                            search
+                        </span>
+                    </div>
+                </div>
+                <div id="anouncement-container">
+                    <h2>Announcements</h2>
+                    <div id="announcements">
+                        <h3>Site Maintenance</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                        </p>
+                        <h3>Community Share Day</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                        </p>
+                        <h3>Updated Privacy Policy</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="trending-container">
+                    <h2>Trending</h2>
+                    <div id="trending">
+                        <div class="user-icon"></div>
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                        <div class="user-icon"></div>
+                        <p>@morgan</p>
+                        <p>Super Cool Project</p>
+                        <div class="user-icon"></div>
+                        <p>@kendall</p>
+                        <p>Life Changing App</p>
+                        <div class="user-icon"></div>
+                        <p>@alex</p>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
