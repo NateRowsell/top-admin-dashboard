@@ -15,106 +15,112 @@
   <body>
     <div id="left">
         <div id="sidebar">
-        <div id="sidebar-title">
-            <h1>Dashboard</h1>
-        </div>
 
-        <div id="sidebar-list">
-            <ul>
-            <li class="sidebar-items">
-                <a href="/home">
-                <span class="material-icons">home</span>
-                Home
-                </a>
-            </li>
-            <li class="sidebar-items">
-                <a href="/profile">
-                <span class="material-icons">face</span>
-                Profile
-                </a>
-            </li>
-            <li class="sidebar-items">
-                <a href="/messages">
-                <span class="material-icons">mail</span>
-                Messages
-                </a>
-            </li>
-            <li class="sidebar-items">
-                <a href="/history">
-                <span class="material-icons">history</span>
-                History
-                </a>
-            </li>
-            <li class="sidebar-items">
-                <a href="/tasks">
-                <span class="material-icons">checklist</span>
-                Tasks
-                </a>
-            </li>
-            <li class="sidebar-items">
-                <a href="/communities">
-                <span class="material-icons">people</span>
-                Communities
-                </a>
-            </li>
-            </ul>
-
-            <ul>
-            <li class="sidebar-items">
-                <a href="/settings">
-                <span class="material-icons">settings</span>
-                Settings
-                </a>
-            </li>
-            <li class="sidebar-items">
-                <a href="/support">
-                <span class="material-icons">info</span>
-                Support
-                </a>
-            </li>
-            <li class="sidebar-items">
-                <a href="/privacy">
+            <div id="sidebar-title">
                 <span class="material-icons">
-                    admin_panel_settings
-                </span>
-                Privacy
-                </a>
-            </li>
+                    auto_awesome_mosaic
+                    </span>
+                <h1>Dashboard</h1>
+            </div>
+
+            <ul id="list-one">
+                <li class="sidebar-items">
+                    <a href="/home">
+                    <span class="material-icons">home</span>
+                    Home
+                    </a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="/profile">
+                    <span class="material-icons">face</span>
+                    Profile
+                    </a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="/messages">
+                    <span class="material-icons">mail</span>
+                    Messages
+                    </a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="/history">
+                    <span class="material-icons">history</span>
+                    History
+                    </a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="/tasks">
+                    <span class="material-icons">checklist</span>
+                    Tasks
+                    </a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="/communities">
+                    <span class="material-icons">people</span>
+                    Communities
+                    </a>
+                </li>
             </ul>
-        </div>
+
+            <ul id="list-two">
+                <li class="sidebar-items">
+                    <a href="/settings">
+                    <span class="material-icons">settings</span>
+                    Settings
+                    </a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="/support">
+                    <span class="material-icons">info</span>
+                    Support
+                    </a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="/privacy">
+                    <span class="material-icons">
+                        admin_panel_settings
+                    </span>
+                    Privacy
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
     <div id="right">
-        <div id="top-right">
-            <div id="header-top">
-                <div id="header-top-left">
+        <div id="header-right">
 
-                    <form action="GET">
-                        <label for="search">
-                            <span class="material-icons">
-                            search
-                            </span>  
-                        </label>
-                        <input name="search" id="search" type="text" />
-                    </form>
-                </div>
-                <div id="header-top-right">
-                    <span class="material-icons">
-                        notifications_active
-                    </span>
-                    <div id="small-user-icon" class="small-user-icon"></div>
-                    <p id="username">Morgan Oakley</p>
+            <div id="search-bar">
+                <form action="GET">
+                    <label for="search">
+                        <span class="material-icons">
+                        search
+                        </span>  
+                    </label>
+                    <input name="search" id="search" type="text" />
+                </form>
+            </div>
+
+            <div id="header-profile-small">
+                <span class="material-icons">
+                    notifications_active
+                </span>
+                <div id="small-user-icon" class="small-user-icon"></div>
+                <p id="username">Morgan Oakley</p>
+            </div>
+
+
+            <div id="header-greeting">
+                <div id="big-user-icon"></div>
+                <div id="greeting">
+                    <p id="greeting-text">Hi there,</p>
+                    <h2>Morgan Oakley(@morgan)</h2>
                 </div>
             </div>
 
-            <div id="header-bottom">
-            <div id="big-user-icon"></div>
-            <p id="greeting">Hi there,</p>
-            <h2>Morgan Oakley(@morgan)</h2>
-
-            <button class="header-buttons">New</button>
-            <button class="header-buttons">Upload</button>
-            <button class="header-buttons">Share</button>
+            <div id="header-buttons">
+                <button class="header-button">New</button>
+                <button class="header-button">Upload</button>
+                <button class="header-button">Share</button>
             </div>
         </div>
         <div id="bottom-right">
