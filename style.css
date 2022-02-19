@@ -249,7 +249,7 @@ form {
 }
 
 input:focus {
-  border: 20px solid blue;
+  border: 5px solid #c98986;
 }
 
 #header-profile-small {
